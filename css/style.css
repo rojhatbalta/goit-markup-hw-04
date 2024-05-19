@@ -188,7 +188,7 @@ img {
   width: calc((100%-72px) / 4);
 }
 
-.strategy-container {
+.second-section-list-item-container {
   display: flex;
   align-items: center;
   justify-content: center;
