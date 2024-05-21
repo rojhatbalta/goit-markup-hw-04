@@ -153,7 +153,7 @@ img {
   line-height: 1.5;
   letter-spacing: 0.04em;
   color: #ffffff;
-  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .first-section-header-button:hover,
@@ -336,6 +336,10 @@ img {
 .fourth-section-list-item-img {
   position: relative;
   overflow: hidden;
+}
+
+.fourth-section-list-item-img:hover {
+  transform: translateY(0%);
 }
 
 .fourth-section-list-item-paragraph {
