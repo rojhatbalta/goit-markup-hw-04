@@ -321,10 +321,8 @@ img {
   row-gap: 48px;
 }
 
-.fourth-section-list-container {
+.fourth-section-list-item {
   width: calc((100% - 48px) / 3);
-  height: auto;
-  object-fit: fill;
 }
 
 .fourth-section-list-item:hover,
@@ -337,6 +335,7 @@ img {
 .fourth-section-list-item-img {
   position: relative;
   overflow: hidden;
+  object-fit: cover;
 }
 
 .fourth-section-list-item-paragraph {
