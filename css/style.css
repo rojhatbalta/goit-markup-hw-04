@@ -41,6 +41,7 @@ img {
   font-size: 18px;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  height: 72px;
   text-transform: uppercase;
   color: #4d5ae5;
   justify-content: center;
@@ -125,6 +126,7 @@ img {
   background-size: cover;
   max-width: 1440px;
   padding: 188px 0;
+  margin: auto;
 }
 
 .first-section-header {
@@ -323,19 +325,20 @@ img {
 
 .fourth-section-list-item {
   width: calc((100% - 48px) / 3);
+  height: 450px;
+  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fourth-section-list-item:hover,
 .fourth-section-list-item:focus {
   box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
     0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-  transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .fourth-section-list-item-img {
   position: relative;
   overflow: hidden;
-  object-fit: cover;
+  object-fit: fill;
 }
 
 .fourth-section-list-item-paragraph {
