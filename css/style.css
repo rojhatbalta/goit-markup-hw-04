@@ -389,7 +389,7 @@ img {
 
 .footer-container {
   display: flex;
-  align-items: baseline;
+  flex-direction: row;
 }
 
 .footer-info {
@@ -450,6 +450,7 @@ img {
 
 .footer-social-media-container-list-item-link {
   height: 100%;
+  width: 100%;
   background-color: #4d5ae5;
   border-radius: 50%;
   display: flex;
